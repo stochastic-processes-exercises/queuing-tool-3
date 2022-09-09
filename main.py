@@ -10,11 +10,11 @@ def arr_f(t):
     return qt.poisson_random_measure(t, rate, 0.25 )
 
 def ser_f(t):
-    return t + np.random.exponential(1.0)
+    return t + np.random.exponential(2.0)
 
 q_args = {
     1: {
-        'num_servers': 2,
+        'num_servers': 1,
         'arrival_f': arr_f,
         'serivce_f': ser_f
     },
