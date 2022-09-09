@@ -13,5 +13,5 @@ from main import *
 
 class UnitTests( unittest.TestCase ): 
    def test_service_func(self):
-      myvar = randomvar( 2, variance=4, nsamples=10 )
+      myvar = randomvar( 2, variance=4, nsamples=4 )
       assert( check_func( "st_func", [(0,)], [myvar] ) )
