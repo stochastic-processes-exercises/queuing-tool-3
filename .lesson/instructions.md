@@ -6,15 +6,11 @@ Now that you have a better understanding of how queuing tool works lets turn to 
 
 In my attempt at the modelling exercise I model the time to make a cup of tea, T, as an exponential random variable with a lambda parameter of 0.5.  The expectation for the service time is thus:
 
-$$
-\mathbb{E}(T) = \frac{1}{\lambda} = 2
-$$
+![](equation1.png)
 
 in accordance with the statement above.  However, the variance is:
 
-$$
-\textrm{var}(T) = \frac{1}{\lambda^2} = 4
-$$
+![](equation2.png)
 
 which is considerably larger than the variance that is given in the statement of the problem.
 
